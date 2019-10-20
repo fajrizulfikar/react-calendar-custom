@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+.material-icon {
+    font-family: "Material Icons", serif;
+    font-style: normal;
+    display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+    text-transform: none;
+}
+
+.change-month-btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.change-month-btn:focus {
+    outline: none;
+}

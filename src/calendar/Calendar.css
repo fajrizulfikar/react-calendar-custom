@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+#calendarContainer {
+	padding: 5px 2.5px 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: rgba(24, 24, 29, 0.7);
+	height: auto;
+	width: 400px;
+	font-family: 'Work Sans', sans-serif;
+	overflow: auto;
+}

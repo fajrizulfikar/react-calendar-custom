@@ -1,0 +1,54 @@
+#dateCellsContainer {
+    width: 100%;
+}
+
+.date-cell {
+    height: 50px;
+}
+
+.date-background {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.date-number {
+    width: 28px;
+    font-size: 14px;
+    height: 28px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    cursor: pointer;
+}
+
+.other-month .date-number {
+    color: #ccc;
+}
+
+.today .date-number{
+    border: .25px solid;
+    border-color: #3A7CA5;
+    box-sizing: border-box;
+}
+
+.selected .date-number{
+    background: #3A7CA5;
+    color: #fff;
+}
+
+.event-marker {
+    top: 26%;
+    width: 5px;
+    height: 5px;
+    box-sizing: border-box ;
+    border-radius: 100%;
+    background-color: #3A7CA5;
+    position: absolute;
+}

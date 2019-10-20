@@ -1,0 +1,8 @@
+#calendarDays {
+    padding: .3rem 0;
+}
+
+.day-label {
+    font-weight: 500;
+    color: #222;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "react-calendar-custom",
+  "version": "0.0.1",
+  "description": "react calendar",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asadnq/react-calendar-custom.git"
+  },
+  "keywords": [
+    "react",
+    "calendar"
+  ],
+  "author": "Naufal Asad Alhaq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asadnq/react-calendar-custom/issues"
+  },
+  "homepage": "https://github.com/asadnq/react-calendar-custom#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "date-fns": "^2.5.1"
+  }
+}
