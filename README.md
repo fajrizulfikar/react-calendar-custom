@@ -27,4 +27,4 @@ Common props you may want to specify:
 * `todayStyle` - custom style object for `todayDate`.
 
 ### License
-MITLicensed. Copyright (c) Naufal Asad Alhaq 2019.
+MIT Licensed. Copyright (c) Naufal Asad Alhaq 2019.
