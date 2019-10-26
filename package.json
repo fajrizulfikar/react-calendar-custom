@@ -4,6 +4,7 @@
   "description": "react calendar",
   "main": "src/index.js",
   "scripts": {
+    "test": "jest -c jest.config.js --watch",
     "build": "webpack"
   },
   "repository": {
@@ -24,12 +25,16 @@
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "@testing-library/react": "^9.3.0",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^3.2.0",
     "eslint-plugin-react-hooks": "^2.1.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
     "path": "^0.12.7",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
