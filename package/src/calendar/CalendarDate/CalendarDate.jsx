@@ -33,6 +33,8 @@ const CalendarDate = props => {
 				return true;
 			}
 		}
+
+		return false;
 	};
 
 	const getCellDateStyle = date => {

@@ -2,7 +2,8 @@ var path = require('path');
 
 module.exports = {
 	mode: 'production',
-	entry: './src/calendar/Calendar.jsx',
+	// entry: './src/calendar/Calendar.jsx',
+	entry: './src/App.jsx',
 	output: {
 		path: path.resolve('src'),
 		filename: 'index.js',
@@ -20,24 +21,14 @@ module.exports = {
 				use: ['style-loader', 'css-loader'],
 			},
 		],
-    },
-    resolve: {
+	},
+	/*resolve: {
 		alias: {
 			react: path.resolve('./node_modules/react'),
 		},
-    },
+    },*/
 	externals: {
-		react: {
-			root: 'React',
-			commonjs2: 'react',
-			commonjs: 'react',
-			amd: 'react',
-		},
-		'react-dom': {
-			root: 'ReactDOM',
-			commonjs2: 'react-dom',
-			commonjs: 'react-dom',
-			amd: 'react-dom',
-		},
+		react: 'React',
+		'react-dom': 'react-dom',
 	},
 };
